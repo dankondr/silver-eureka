@@ -39,7 +39,7 @@ else()
 endif()
 
 add_subdirectory(Simple-Web-Server)
-add_subdirectory(moonlight-common-c/enet)
+add_subdirectory(moonlight-common-c)
 
 find_package(Threads REQUIRED)
 find_package(OpenSSL REQUIRED)
