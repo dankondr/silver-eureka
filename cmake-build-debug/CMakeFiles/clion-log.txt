@@ -1,0 +1,39 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/clang++-11 -G "CodeBlocks - Unix Makefiles" /tmp/tmp.E3bWrejNzk
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.53.0") found components: system thread 
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found suitable version "1.1.1f", minimum required is "1.0.2")  
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Checking for module 'avformat'
+--   No package 'avformat' found
+-- Found avformat include dirs: /usr/include/x86_64-linux-gnu
+-- Using FFMpeg dir parent as hint: /usr/include
+-- Found avformat libs: /usr/lib/x86_64-linux-gnu/libavformat.so
+-- found avformat: include /usr/include/x86_64-linux-gnu lib /usr/lib/x86_64-linux-gnu/libavformat.so
+-- Checking for module 'avdevice'
+--   No package 'avdevice' found
+-- Found avdevice include dirs: /usr/include/x86_64-linux-gnu
+-- Using FFMpeg dir parent as hint: /usr/include
+-- Found avdevice libs: /usr/lib/x86_64-linux-gnu/libavdevice.so
+-- found avdevice: include /usr/include/x86_64-linux-gnu lib /usr/lib/x86_64-linux-gnu/libavdevice.so
+-- Checking for module 'avcodec'
+--   No package 'avcodec' found
+-- Found avcodec include dirs: /usr/include/x86_64-linux-gnu
+-- Using FFMpeg dir parent as hint: /usr/include
+-- Found avcodec libs: /usr/lib/x86_64-linux-gnu/libavcodec.so
+-- found avcodec: include /usr/include/x86_64-linux-gnu lib /usr/lib/x86_64-linux-gnu/libavcodec.so
+-- Checking for module 'avutil'
+--   No package 'avutil' found
+-- Found avutil include dirs: /usr/include/x86_64-linux-gnu
+-- Using FFMpeg dir parent as hint: /usr/include
+-- Found avutil libs: /usr/lib/x86_64-linux-gnu/libavutil.so
+-- found avutil: include /usr/include/x86_64-linux-gnu lib /usr/lib/x86_64-linux-gnu/libavutil.so
+-- Checking for module 'swscale'
+--   No package 'swscale' found
+-- Found swscale include dirs: /usr/include/x86_64-linux-gnu
+-- Using FFMpeg dir parent as hint: /usr/include
+-- Found swscale libs: /usr/lib/x86_64-linux-gnu/libswscale.so
+-- found swscale: include /usr/include/x86_64-linux-gnu lib /usr/lib/x86_64-linux-gnu/libswscale.so
+-- /usr/lib/x86_64-linux-gnu/libavformat.so/usr/lib/x86_64-linux-gnu/libavdevice.so/usr/lib/x86_64-linux-gnu/libavcodec.so/usr/lib/x86_64-linux-gnu/libavutil.so/usr/lib/x86_64-linux-gnu/libswscale.so
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: log filesystem 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/tmp.E3bWrejNzk/cmake-build-debug

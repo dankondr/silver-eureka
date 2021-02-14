@@ -1,0 +1,8 @@
+/tmp/tmp.E3bWrejNzk/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/tmp/tmp.E3bWrejNzk/cmake-build-debug/CMakeFiles/edit_cache.dir
+/tmp/tmp.E3bWrejNzk/cmake-build-debug/CMakeFiles/sunshine.dir
+/tmp/tmp.E3bWrejNzk/cmake-build-debug/Simple-Web-Server/CMakeFiles/rebuild_cache.dir
+/tmp/tmp.E3bWrejNzk/cmake-build-debug/Simple-Web-Server/CMakeFiles/edit_cache.dir
+/tmp/tmp.E3bWrejNzk/cmake-build-debug/moonlight-common-c/CMakeFiles/rebuild_cache.dir
+/tmp/tmp.E3bWrejNzk/cmake-build-debug/moonlight-common-c/CMakeFiles/edit_cache.dir
+/tmp/tmp.E3bWrejNzk/cmake-build-debug/moonlight-common-c/CMakeFiles/moonlight-common-c.dir

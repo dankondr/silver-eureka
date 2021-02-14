@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Sunshine"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Simple-Web-Server\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\usr\;CMake Files\..\..\usr\lib\;CMake Files\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\;CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\;CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\;CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_thread-1.71.0\;CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_atomic-1.71.0\;CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_log-1.71.0\;CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_chrono-1.71.0\;CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_date_time-1.71.0\;CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_filesystem-1.71.0\;CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\;CMake Files\moonlight-common-c\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/tmp.E3bWrejNzk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/tmp/tmp.E3bWrejNzk/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/tmp/tmp.E3bWrejNzk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/tmp/tmp.E3bWrejNzk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/tmp/tmp.E3bWrejNzk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/tmp.E3bWrejNzk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/tmp/tmp.E3bWrejNzk/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/tmp/tmp.E3bWrejNzk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/tmp/tmp.E3bWrejNzk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/tmp/tmp.E3bWrejNzk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/tmp.E3bWrejNzk/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/tmp/tmp.E3bWrejNzk/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/tmp/tmp.E3bWrejNzk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/tmp/tmp.E3bWrejNzk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/tmp/tmp.E3bWrejNzk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sunshine">
+				<Option output="/tmp/tmp.E3bWrejNzk/cmake-build-debug/sunshine" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.E3bWrejNzk/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DAPPS_JSON=&quot;apps_linux.json&quot;"/>
+					<Add option="-DSUNSHINE_ASSETS_DIR=&quot;/tmp/tmp.E3bWrejNzk/assets&quot;"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add directory="/tmp/tmp.E3bWrejNzk"/>
+					<Add directory="/tmp/tmp.E3bWrejNzk/Simple-Web-Server"/>
+					<Add directory="/tmp/tmp.E3bWrejNzk/moonlight-common-c/enet/include"/>
+					<Add directory="/tmp/tmp.E3bWrejNzk/moonlight-common-c/reedsolomon"/>
+					<Add directory="/usr/include/libevdev-1.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-11/lib/clang/11.1.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/tmp/tmp.E3bWrejNzk/cmake-build-debug/Makefile&quot;  VERBOSE=1 sunshine"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/tmp/tmp.E3bWrejNzk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/tmp/tmp.E3bWrejNzk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/tmp/tmp.E3bWrejNzk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sunshine/fast">
+				<Option output="/tmp/tmp.E3bWrejNzk/cmake-build-debug/sunshine" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.E3bWrejNzk/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DAPPS_JSON=&quot;apps_linux.json&quot;"/>
+					<Add option="-DSUNSHINE_ASSETS_DIR=&quot;/tmp/tmp.E3bWrejNzk/assets&quot;"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add directory="/tmp/tmp.E3bWrejNzk"/>
+					<Add directory="/tmp/tmp.E3bWrejNzk/Simple-Web-Server"/>
+					<Add directory="/tmp/tmp.E3bWrejNzk/moonlight-common-c/enet/include"/>
+					<Add directory="/tmp/tmp.E3bWrejNzk/moonlight-common-c/reedsolomon"/>
+					<Add directory="/usr/include/libevdev-1.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-11/lib/clang/11.1.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/tmp/tmp.E3bWrejNzk/cmake-build-debug/Makefile&quot;  VERBOSE=1 sunshine/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/tmp/tmp.E3bWrejNzk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/tmp/tmp.E3bWrejNzk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/tmp/tmp.E3bWrejNzk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="moonlight-common-c">
+				<Option output="/tmp/tmp.E3bWrejNzk/cmake-build-debug/moonlight-common-c/libmoonlight-common-c.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.E3bWrejNzk/cmake-build-debug/moonlight-common-c"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DLC_DEBUG"/>
+					<Add option="-DHAS_SOCKLEN_T"/>
+					<Add directory="/tmp/tmp.E3bWrejNzk/moonlight-common-c/enet/include"/>
+					<Add directory="/tmp/tmp.E3bWrejNzk/moonlight-common-c/reedsolomon"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-11/lib/clang/11.1.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/tmp/tmp.E3bWrejNzk/cmake-build-debug/moonlight-common-c/Makefile&quot;  VERBOSE=1 moonlight-common-c"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/tmp/tmp.E3bWrejNzk/cmake-build-debug/moonlight-common-c/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/tmp/tmp.E3bWrejNzk/cmake-build-debug/moonlight-common-c/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/tmp/tmp.E3bWrejNzk/cmake-build-debug/moonlight-common-c/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="moonlight-common-c/fast">
+				<Option output="/tmp/tmp.E3bWrejNzk/cmake-build-debug/moonlight-common-c/libmoonlight-common-c.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.E3bWrejNzk/cmake-build-debug/moonlight-common-c"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DLC_DEBUG"/>
+					<Add option="-DHAS_SOCKLEN_T"/>
+					<Add directory="/tmp/tmp.E3bWrejNzk/moonlight-common-c/enet/include"/>
+					<Add directory="/tmp/tmp.E3bWrejNzk/moonlight-common-c/reedsolomon"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-11/lib/clang/11.1.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/tmp/tmp.E3bWrejNzk/cmake-build-debug/moonlight-common-c/Makefile&quot;  VERBOSE=1 moonlight-common-c/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/tmp/tmp.E3bWrejNzk/cmake-build-debug/moonlight-common-c/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/tmp/tmp.E3bWrejNzk/cmake-build-debug/moonlight-common-c/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/tmp/tmp.E3bWrejNzk/cmake-build-debug/moonlight-common-c/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/enet/callbacks.c">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/enet/compress.c">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/enet/host.c">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/enet/list.c">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/enet/packet.c">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/enet/peer.c">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/enet/protocol.c">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/enet/unix.c">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/enet/win32.c">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/reedsolomon/rs.c">
+			<Option target="sunshine"/>
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/reedsolomon/rs.h">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/AudioStream.c">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/ByteBuffer.c">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/ByteBuffer.h">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/Connection.c">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/ControlStream.c">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/FakeCallbacks.c">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/Input.h">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/InputStream.c">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/LinkedBlockingQueue.c">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/LinkedBlockingQueue.h">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/Misc.c">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/Platform.c">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/Platform.h">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/PlatformSockets.c">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/PlatformSockets.h">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/PortConfigCoder.c">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/PortConfigCoder.h">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/PortConfigParser.c">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/PortConfigParser.h">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/RtpFecQueue.c">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/RtpFecQueue.h">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/RtpReorderQueue.c">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/RtpReorderQueue.h">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/Rtsp.h">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/RtspConnection.c">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/RtspParser.c">
+			<Option target="sunshine"/>
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/SdpGenerator.c">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/SdpGenerator.h">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/SimpleStun.c">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/Video.h">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/VideoDepacketizer.c">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/src/VideoStream.c">
+			<Option target="moonlight-common-c"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/audio.cpp">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/audio.h">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/config.cpp">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/config.h">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/crypto.cpp">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/crypto.h">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/input.cpp">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/input.h">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/main.cpp">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/main.h">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/move_by_copy.h">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/network.cpp">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/network.h">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/nvhttp.cpp">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/nvhttp.h">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/platform/common.h">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/platform/linux/display.cpp">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/platform/linux/input.cpp">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/process.cpp">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/process.h">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/round_robin.h">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/rtsp.cpp">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/rtsp.h">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/stream.cpp">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/stream.h">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/sync.h">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/task_pool.h">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/thread_pool.h">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/thread_safe.h">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/utility.h">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/uuid.h">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/video.cpp">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine/video.h">
+			<Option target="sunshine"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/FindFFmpeg.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/gen-deb.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/sunshine.service.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/Simple-Web-Server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Simple-Web-Server\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/BoostDetectToolset-1.71.0.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_system-1.71.0/boost_system-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_system-1.71.0/boost_system-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_system-1.71.0/libboost_system-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_system-1.71.0/libboost_system-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.71.0/boost_thread-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_thread-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.71.0/boost_thread-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_thread-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.71.0/libboost_thread-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_thread-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.71.0/libboost_thread-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_thread-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_atomic-1.71.0/boost_atomic-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_atomic-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_atomic-1.71.0/boost_atomic-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_atomic-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_atomic-1.71.0/libboost_atomic-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_atomic-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_atomic-1.71.0/libboost_atomic-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_atomic-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_log-1.71.0/boost_log-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_log-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_log-1.71.0/boost_log-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_log-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_log-1.71.0/libboost_log-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_log-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_log-1.71.0/libboost_log-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_log-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_chrono-1.71.0/boost_chrono-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_chrono-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_chrono-1.71.0/boost_chrono-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_chrono-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_chrono-1.71.0/libboost_chrono-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_chrono-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_chrono-1.71.0/libboost_chrono-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_chrono-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_date_time-1.71.0/boost_date_time-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_date_time-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_date_time-1.71.0/boost_date_time-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_date_time-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_date_time-1.71.0/libboost_date_time-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_date_time-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_date_time-1.71.0/libboost_date_time-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_date_time-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_filesystem-1.71.0/boost_filesystem-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_filesystem-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_filesystem-1.71.0/boost_filesystem-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_filesystem-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_filesystem-1.71.0/libboost_filesystem-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_filesystem-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_filesystem-1.71.0/libboost_filesystem-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_filesystem-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_regex-1.71.0/boost_regex-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_regex-1.71.0/boost_regex-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_regex-1.71.0/libboost_regex-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/../../usr/lib/x86_64-linux-gnu/cmake/boost_regex-1.71.0/libboost_regex-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.E3bWrejNzk/moonlight-common-c/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\moonlight-common-c\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
